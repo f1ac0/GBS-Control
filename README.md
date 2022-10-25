@@ -24,10 +24,10 @@ The socket must be prepared before soldering : remove the 4 small stands inside 
 
 Check for shorts at least between power traces before applying power !
 
-The programming port does not need to be soldered since it needs to be programmed just once : you can just hold it in place during the few seconds required for programming with an USB to serial adapter. When you want to program it, remember to short GPIO0 to ground before applying power. 
+The programming port does not need to be soldered since it needs to be programmed just once : you can just hold it in place during the few seconds required for programming with an USB to serial adapter. When you want to program it, remember to short GPIO0 to ground before applying power.
 
 # Using it
-Plug the board on the PLCC controller.
+Plug the GBS-control board on the PLCC controller. Connect the clock generator board on the clock port.
 
 There is no need to populate P8 since it is shorted by the board. It also takes the 3.3V from the PLCC chip so no additional power connection is required.
 
